@@ -6,7 +6,7 @@ export const profile = {
   roles: ["Développeuse Web Full-Stack", "Passionnée de React & Next.js", "Créatrice d'interfaces métier"],
   location: "Djibouti",
   photo: "/photo.jpg",
-  photo2: "/photo2.jpg",
+  photo2: "/photo2.png",
   email: "raninewalid6@gmail.com",
   phone: "+253 77 36 29 58",
   phoneLink: "+25377362958",
