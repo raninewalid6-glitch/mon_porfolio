@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ranine Walid — Développeuse Web</title>
+    <meta name="description" content="Portfolio de Ranine Walid, développeuse web full-stack (React, Next.js, Node.js)." />
+    <script>
+      // Applique le thème avant l'affichage pour éviter un flash : choix mémorisé, sinon réglage du système
+      (function () {
+        var saved;
+        try {
+          saved = localStorage.getItem("theme");
+        } catch (e) {}
+        var dark = saved === "dark" || (saved !== "light" && window.matchMedia("(prefers-color-scheme: dark)").matches);
+        document.documentElement.dataset.theme = dark ? "dark" : "light";
+      })();
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
