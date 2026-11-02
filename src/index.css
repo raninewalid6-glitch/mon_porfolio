@@ -660,7 +660,7 @@ button.btn--primary:hover {
 }
 .about__photo {
   position: relative;
-  aspect-ratio: 3 / 4;
+  aspect-ratio: 6 / 7;
   margin: 10px;
 }
 .about__photo::before {
@@ -677,8 +677,8 @@ button.btn--primary:hover {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  /* Photo détourée (fond supprimé) : on cadre sur le visage et la main, sur un dégradé assorti au site */
-  object-position: center 38%;
+  /* Portrait détouré (fond supprimé), posé sur un dégradé assorti au site */
+  object-position: center top;
   background: radial-gradient(circle at 60% 30%, var(--accent-light), transparent 60%),
     linear-gradient(160deg, var(--gold) 0%, var(--accent) 55%, var(--accent-dark) 100%);
   border-radius: var(--radius);
